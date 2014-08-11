@@ -1,0 +1,341 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".DatabaseActivity" >
+
+    <TextView
+        android:id="@+id/lbl_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margenes_tablas"
+        android:text="Nueva Propuesta"
+        android:textSize="18sp" />
+
+<TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/p2F1Col1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACEITE"
+                android:textSize="@dimen/tamano_header_tables" />
+
+            <TextView
+                android:id="@+id/p2F1Col2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRECIO U."
+                android:textSize="@dimen/tamano_header_tables" />
+            
+            <TextView
+                android:id="@+id/p2F1Col3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAMBIOS DIARIOS"
+                android:textSize="@dimen/tamano_header_tables" />
+            
+            <TextView
+                android:id="@+id/p2F1Col4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUBTOTAL"
+                android:textSize="@dimen/tamano_header_tables" />
+                        
+            <TextView
+                android:id="@+id/p2F1Col5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MARGEN %"
+                android:textSize="@dimen/tamano_header_tables" />
+                
+            <TextView
+                android:id="@+id/p2F1Col6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UTILIDAD"
+                android:textSize="@dimen/tamano_header_tables" />
+
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/p2F2Col1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mineral"
+                 />
+
+            <EditText
+                android:id="@+id/p2F2Col2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="13000" />
+
+            <EditText
+                android:id="@+id/p2F2Col3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="10" />
+            
+            <EditText
+                android:id="@+id/p2F2Col4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+            
+            <EditText
+                android:id="@+id/p2F2Col5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="30" />
+            
+            <EditText
+                android:id="@+id/p2F2Col6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>
+        
+         
+         
+
+         <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/p2F3Col1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alto Millaje"
+                 />
+
+            <EditText
+                android:id="@+id/p2F3Col2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="15500" />
+
+            <EditText
+                android:id="@+id/p2F3Col3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="3" />
+            
+            <EditText
+                android:id="@+id/p2F3Col4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+            
+            <EditText
+                android:id="@+id/p2F3Col5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="30" />
+            
+            <EditText
+                android:id="@+id/p2F3Col6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>        
+        
+         
+
+		<TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/p2F4Col1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semi-Sintético"
+                 />
+
+            <EditText
+                android:id="@+id/p2F4Col2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="21000" />
+
+            <EditText
+                android:id="@+id/p2F4Col3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="5" />
+            
+            <EditText
+                android:id="@+id/p2F4Col4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+            
+            <EditText
+                android:id="@+id/p2F4Col5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="30" />
+            
+            <EditText
+                android:id="@+id/p2F4Col6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>  
+         
+         
+
+		
+		
+         <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/p2F5Col1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Sintetico"
+                 />
+
+            <EditText
+                android:id="@+id/p2F5Col2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="24000" />
+
+            <EditText
+                android:id="@+id/p2F5Col3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="1" />
+            
+            <EditText
+                android:id="@+id/p2F5Col4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+            
+            <EditText
+                android:id="@+id/p2F5Col5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="30" />
+            
+            <EditText
+                android:id="@+id/p2F5Col6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>  		
+         
+
+ <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/p2F6Col1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Totales"
+                 />
+
+            <EditText
+                android:id="@+id/p2F6Col2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/p2F6Col3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            
+            <EditText
+                android:id="@+id/p2F6Col4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+            
+            <EditText
+                android:id="@+id/p2F6Col5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            
+            <EditText
+                android:id="@+id/p2F6Col6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>  		
+                  
+         
+    </TableLayout>
+</LinearLayout>    
